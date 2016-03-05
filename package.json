@@ -1,0 +1,30 @@
+{
+  "name": "angular-webpack",
+  "version": "1.0.0",
+  "description": "Angular + Webpack Boilerplate project",
+  "main": "app/index.js",
+  "dependencies": {
+    "semver": "^5.1.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run tests",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadagama/angular-webpack.git"
+  },
+  "keywords": [
+    "angularjs",
+    "webpack"
+  ],
+  "author": "Darwin Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dadagama/angular-webpack/issues"
+  },
+  "homepage": "https://github.com/dadagama/angular-webpack#readme"
+}
