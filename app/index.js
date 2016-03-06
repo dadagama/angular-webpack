@@ -1,1 +1,1 @@
-alert('hola');
+module.exports = angular.module('app', []);
