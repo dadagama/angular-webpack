@@ -1,7 +1,7 @@
 {
-  "name": "angular-webpack",
+  "name": "angular-webpack-jwt",
   "version": "1.0.0",
-  "description": "Angular + Webpack Boilerplate project",
+  "description": "AngularJS 1.5.x and Webpack 1.12.x Boilerplate project with JWT out of the box",
   "main": "app/index.js",
   "dependencies": {
     "angular": "^1.5.0",
@@ -13,6 +13,8 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.12.0",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "semver": "^5.1.0",
@@ -26,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dadagama/angular-webpack.git"
+    "url": "git+https://github.com/dadagama/angular-webpack-jwt.git"
   },
   "keywords": [
     "angularjs",
@@ -35,7 +37,8 @@
   "author": "Darwin Garcia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dadagama/angular-webpack/issues"
+    "url": "https://github.com/dadagama/angular-webpack-jwt/issues"
   },
-  "homepage": "https://github.com/dadagama/angular-webpack#readme"
+  "homepage": "https://github.com/dadagama/angular-webpack-jwt#readme",
+  "jshintConfig": ".jshintrc"
 }

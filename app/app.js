@@ -7,11 +7,12 @@ function () {
     'use strict';
     require('./index.scss');
     //initialize Angular App with its dependecies
-    var app = angular.module("app", [
+    var app = angular.module("demoApp", [
         'ngRoute',
         'angular-jwt',
         'app.directives'
     ]);
+
     //configure the Angular app
     require('./app.config')(app);
 

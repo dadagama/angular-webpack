@@ -6,9 +6,9 @@ define([], function () {
     var demoDirective = function () {
 
         return {
-            template: '<h1>demo directive template [{{demoController.myVar}}]</h1>',
+            template: '<h1>demo  template [{{::demoController.myVar}}]</h1>',
             restrict: 'E',
-            controller: function(jwtHelper, $http){
+            controller: ['jwtHelper', '$http', function(jwtHelper, $http){
                 console.info('demo.controller');
                 var demoController = this;
                 demoController.myVar = 'myValue';
@@ -22,7 +22,7 @@ define([], function () {
                     url: '/hola',
                     method: 'GET'
                 });
-            },
+            }],
             controllerAs: 'demoController'
         };
 

@@ -1,5 +1,5 @@
 # angular-webpack-jwt
-Boilerplate project to start an Angular App
+Boilerplate project to start an Angular App **(WORK IN PROGRESS)**
 ###Contains
 * [AngularJS](https://angularjs.org/) 1.5.x
 * [Webpack](https://webpack.github.io/) 1.12.x 
@@ -9,10 +9,11 @@ Boilerplate project to start an Angular App
 ###TODO
 - [ ] Integrate ui-router
 - [ ] Generate code coverage reports during development
-- [ ] Integrate linting validations during development
+- [x] Integrate linting validations during development
 - [ ] Integrate protractor for e2e testing
 - [ ] Integrate Jasmine Framework for unit testing
-- [ ] Separate verdor css/js in their own bundles
+- [x] Separate verdor js files in their own bundle
+- [ ] Separate verdor css files in their own bundle
 - [ ] Create basic views to demostrate protected views
 - [ ] Create basic login page
 
